@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
+#nuestroSabores .card{
+    border: none;
+}
+.card img{
+object-fit: cover;
+width: 100%;
+height: 40vh;
+border-radius: 10px;
+margin-bottom: 30px;
+}
+
+#listaDeProducto .card img{
+    object-fit: cover;
+    width: 100%;
+    height: 30vh; 
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+@media all and (max-width: 767px){
+    .banner-responsive{
+        height: 250px;
+        object-fit: cover;
+        object-position: 50%;
+    }
+    
+}
+@media all and (max-width: 991px){
+    .card img{
+        object-fit: cover;
+        width: 100%;
+        height: 40vh;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        }
+}
+@media all and (min-width: 992) and (max-width: 1200px){
+    .card img{
+        object-fit: cover;
+        width: 100%;
+        height: 20vh;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+}
