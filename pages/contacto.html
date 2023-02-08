@@ -53,7 +53,26 @@
         </div>
       </nav>
     </header>
-    <main></main>
+    <main class="container my-4">
+      <h1 class="display-1 text-center">Contactos</h1>
+      <hr />
+      <form>
+        <div class="mb-3">
+          <label for="nombreApellido" class="form-label">Nombre y apellido</label>
+          <input  class='form-control' type="text" id="nombreApellido" placeholder="Ej: Juan Perez" minlength="3" maxlength="100" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input id="email" class='form-control' type="email" minlength="5" maxlength="300" required placeholder="juanperez@mail.com">
+        </div>
+        <div class="mb-3">
+          <label for="consulta" class="form-label">Consulta</label>
+          <textarea class='form-control'  id="consulta" rows="4" placeholder="deja tu consulta" required minlength="10" maxlength="200"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </main>
+
     <footer class="bg-dark text-secondary py-4">
       <section class="container">
         <div class="row">
